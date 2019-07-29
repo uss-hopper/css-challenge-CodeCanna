@@ -62,5 +62,46 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
 
+header {
+	background-color: #333333;
+	color: #00ff00;
+}
+
+header h1 {
+	margin: 0px;
+}
+
+div.container {
+	text-align: center;
+}
+
+section:nth-child(3) {
+	background-color: yellow;
+}
+
+section.about-me {
+	background-color: blue;
+	color: white;
+}
+
+div.instructions-content {
+	border: solid black 5px;
+}
+
+div.instructions-wrapper img {
+	width: 100px;
+	height: 100px;
+	float: right;
+}
+
+div.form-wrapper {
+	background-color: #333333;
+	color: #00ff00;
+}
 
